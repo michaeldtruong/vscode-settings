@@ -1,0 +1,54 @@
+{
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    },
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "<Enter>"],
+      "after": ["o", "<Esc>", "k"]
+    },
+    {
+      "before": ["<C-s>"],
+      "commands": [
+          ":w",
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "Nord",
+  "explorer.openEditors.visible": 0,
+  "workbench.activityBar.visible": false,
+  "editor.minimap.enabled": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "vue-html"
+  ],
+  "window.zoomLevel": 0,
+  "breadcrumbs.enabled": false,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.verticalScrollbarSize": 5,
+  "editor.overviewRulerLanes": 1,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 13,
+  "workbench.statusBar.visible": false,
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.fullScreen": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "zenMode.restore": true,
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "editor.tabSize": 2,
+  "editor.occurrencesHighlight": false,
+  "window.nativeFullScreen": false
+}
